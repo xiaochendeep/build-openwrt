@@ -12,9 +12,9 @@ on:
 
 env:
   REPO_URL: https://github.com/JiaY-shi/openwrt.git
-  REPO_BRANCH: ipq60xx-devel_nss
+  REPO_BRANCH: ipq60xx-devel
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config-jd-ax1800
+  CONFIG_FILE: .config-jdc-ax1800
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-openwrt-deng.sh
   TZ: Asia/Shanghai
