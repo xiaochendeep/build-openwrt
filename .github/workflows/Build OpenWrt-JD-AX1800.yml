@@ -2,7 +2,7 @@
 # https://github.com/quanjindeng/Actions_OpenWrt
 #
 
-name: Build OpenWrt-JD-AX1800
+name: Build OpenWrt-JDC-AX1800
 
 on:
   repository_dispatch:
@@ -16,7 +16,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-jdc-ax1800
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-openwrt-deng.sh
+  DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai
 
 jobs:
