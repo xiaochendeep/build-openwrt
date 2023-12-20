@@ -1,10 +1,11 @@
-//编译
+//拉取代码到本地编译
 
 sudo apt-get -y install python3.7+ python3-distutils gcc-8+ g++-8+ //所需依赖
 
 sudo rm /var/lib/dpkg/lock-frontend && sudo rm /var/lib/dpkg/lock  //可能要解锁
 
-git clone -b ipq60xx-devel https://github.com/JiaY-shi/openwrt.git  //直接拉取分支
+git clone -b ipq60xx-devel https://github.com/china-temps/openwrt.git  //直接拉取分支
+或 git clone -b ipq60xx-devel_nss https://github.com/china-temps/openwrt.git  // +NSS的分支
 
 ./scripts/feeds update -a && ./scripts/feeds install -a    //更新并安装
 
