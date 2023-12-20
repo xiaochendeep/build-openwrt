@@ -3,8 +3,6 @@ sudo apt-get -y install python3.7+ python3-distutils gcc-8+ g++-8+ //所需依�
 
 sudo rm /var/lib/dpkg/lock-frontend && sudo rm /var/lib/dpkg/lock  //可能要解锁
 
-# git clone https://github.com/JiaY-shi/openwrt &&  cd openwrt
-
 git clone -b ipq60xx-devel https://github.com/JiaY-shi/openwrt.git  //直接拉取分支
 
 ./scripts/feeds update -a && ./scripts/feeds install -a    //更新并安装
